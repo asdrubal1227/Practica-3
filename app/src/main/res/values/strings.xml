@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sesion4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mensaje">Aqui aparecerá su nombre</string>
+    <string name="boton">Cargar</string>
+    <string name="check">CheckBox</string>
+    <string name="nombre">Nombre:  </string>
+    <string name="hNombre">Digite su nombre</string>
+
+</resources>
