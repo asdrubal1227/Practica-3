@@ -37,19 +37,19 @@ public class MainActivity2 extends Activity implements View.OnClickListener {
         switch(view.getId()) {
             case R.id.radioButton:
                 if (checked)
-                result.setText("Resultado: "+(a+b));
+                result.setText(String.format("Resultado: %.2f",(a+b)));
                     break;
             case R.id.radioButton2:
                 if (checked)
-                    result.setText("Resultado: "+(a-b));
+                    result.setText(String.format("Resultado: %.2f",(a-b)));
                     break;
             case R.id.radioButton3:
                 if (checked)
-                    result.setText("Resultado: "+(a*b));
+                    result.setText(String.format("Resultado: %.2f",(a*b)));
                 break;
             case R.id.radioButton4:
                 if (checked)
-                    result.setText("Resultado: "+(a/b));
+                    result.setText(String.format("Resultado: %.2f",(a/b)));
                     break;
         }
     }
